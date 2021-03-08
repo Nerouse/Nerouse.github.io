@@ -51,7 +51,7 @@ function Card() {
 
             <CardItem
               src={workoutTracker}
-              text='A program built with Swift designed to help users track their workout and provide motivation.'
+              text='A program built with Swift designed to help users track their workout and provide motivation'
               label='Workout Tracker'
               path = "https://github.com/Nerouse/Life-Tracker"              
             />
