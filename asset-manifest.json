@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9f2a363.chunk.css",
-    "main.js": "/static/js/main.7646ab4f.chunk.js",
-    "main.js.map": "/static/js/main.7646ab4f.chunk.js.map",
+    "main.css": "/static/css/main.9195d052.chunk.css",
+    "main.js": "/static/js/main.14613537.chunk.js",
+    "main.js.map": "/static/js/main.14613537.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.647f0b20.js",
     "runtime-main.js.map": "/static/js/runtime-main.647f0b20.js.map",
     "static/js/2.643364db.chunk.js": "/static/js/2.643364db.chunk.js",
     "static/js/2.643364db.chunk.js.map": "/static/js/2.643364db.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a9f2a363.chunk.css.map": "/static/css/main.a9f2a363.chunk.css.map",
+    "static/css/main.9195d052.chunk.css.map": "/static/css/main.9195d052.chunk.css.map",
     "static/js/2.643364db.chunk.js.LICENSE.txt": "/static/js/2.643364db.chunk.js.LICENSE.txt",
     "static/media/Nelson_Resume_2021.578f1fd8.pdf": "/static/media/Nelson_Resume_2021.578f1fd8.pdf",
     "static/media/biketurn.868947f8.jpg": "/static/media/biketurn.868947f8.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.647f0b20.js",
     "static/js/2.643364db.chunk.js",
-    "static/css/main.a9f2a363.chunk.css",
-    "static/js/main.7646ab4f.chunk.js"
+    "static/css/main.9195d052.chunk.css",
+    "static/js/main.14613537.chunk.js"
   ]
 }
