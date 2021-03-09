@@ -9,6 +9,7 @@
 	box-shadow: inset 0 0 0  1000px rbga(0,0,0,0.2);
 	object-fit: contain;
 
+
 }
 
 .resume-container{
@@ -20,6 +21,40 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	box-shadow: inset 0 0 0  1000px rbga(0,0,0,0.2);
 	object-fit: contain;
+
 }
+
+/* iphone x */
+@media only screen 
+    and (max-width : 375px)  {
+    .resume-container{
+    	display: inline-flex;
+    	overflow: auto;
+    }
+	.res {
+    	display: inline-flex;
+    	overflow: auto;
+
+
+	}
+
+}
+
+
+/* Iphone x+ */
+@media only screen 
+    and (max-width : 414px)  {
+    .resume-container{
+    	display: inline-block;
+    	overflow: auto;
+
+    }
+	.res {
+    	display: inline-block;
+    	overflow: auto;
+
+
+	}
+
+ }

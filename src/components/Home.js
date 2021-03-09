@@ -9,10 +9,6 @@ function Home (){
 		<>
 		<AboutMe />
 		
-		{/*probally dont need the card projects here ... replace with basic bio */}
-		
-		
-
 		</>
 		);
 }

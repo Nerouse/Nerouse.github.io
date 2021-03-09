@@ -26,8 +26,6 @@ function Resume (){
       </Document>
      
     </div>
-  );
-	//return <h1 className = 'products'> Projects </h1>
-	
+  );	
 }
 export default Resume;

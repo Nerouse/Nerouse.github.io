@@ -38,64 +38,42 @@ window.addEventListener('resize', showButton);
 					<Link to="/" className='navbar-logo' onClick ={closeMobileMenu}>
 					Nelson Lim
 					</Link>
-					<div className='menu-icon' onClick={handleClick}>
-						<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-					</div>
+						<div className='menu-icon' onClick={handleClick}>
+							<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+						</div>
+
 					<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 						
-
-
-
 						<li className = 'nav-item'>
 							<Link to='/' className='nav-links' onClick={closeMobileMenu}>
 								Home
 							</Link>
 						</li>
 					
-
-
-					<li className = 'nav-item'>
+						<li className = 'nav-item'>
 							<Link to='/Projects' className='nav-links' onClick={closeMobileMenu}>
 								Projects
 							</Link>
 						</li>
 
-
-
-					<li className = 'nav-item'>
-						
-						<a class = "git" href="https://github.com/Nerouse" target="_blank" onClick={closeMobileMenu}>
-						Github
-						</a>
-
-
-						{/*
-
-
-							<Link to='/Github' className='nav-links' onClick={closeMobileMenu}>
+						<li className = 'nav-item'>
+							<a class = "git" href="https://github.com/Nerouse" target="_blank" onClick={closeMobileMenu}>
 								Github
-							</Link>
-
-
-							*/}
-
+							</a>
 						</li>
 
-					<li className = 'nav-item'>
+						<li className = 'nav-item'>
 							<Link to='/Resume' className='nav-links' onClick={closeMobileMenu}>
 								Resume
 							</Link>
 						</li>
 
 					</ul>
-					{/* button below might be unesscary 
 
-					{button && <Button buttonStyle='btn--outline'>RESUME</Button>}
-				*/}
 				</div>
 			</nav>
 		</>
-		)
+	)
 }
 
 export default Navbar
